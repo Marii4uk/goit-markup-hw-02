@@ -1,0 +1,239 @@
+/* основний колір тексту #212121  */
+/* вторинний колір тексту #757575*/
+/* білий колір тексту #FFFFFF */
+/* основний колір фону #FFFFFF */
+/* вторинний колір фону #2F303A */
+/* колір фону team #F5F4FA */
+
+
+
+
+:root{
+  --color-black: #212121;
+  --color-grey: #757575;
+  --color-white: #FFFFFF;
+  --color-backgraund-html: #F5F5F5;
+  --color-backgraund-section: #FFFFFF;
+  --color-background-main-footer: #2F303A;
+  --color-backgraund-team: #F5F4FA;
+  --color-logo-blue: #2196F3;
+}
+
+/* html {
+  background-color: var(--color-backgraund-html);
+} */
+body {
+  background-color: var(--color-backgraund-section);
+  color: var(--color-black);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  
+ }
+html, body{
+  height: 100%;
+  min-width: 320px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+/*------------------ Стилі для index.html-------------------------------- */
+
+/*Навігація*/
+
+.logo {
+  color: var(--color-black);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+.logo__blue {
+  color: var(--color-logo-blue);
+}
+
+.header__nav .menu__link {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header__nav .menu__link:hover , 
+.header__nav .menu__link:focus {
+  color: var(--color-logo-blue);
+}
+
+.header__navigtion .menu__link.current {
+  color: var(--color-logo-blue);
+}
+
+.contacts > .link {
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+
+}
+.email, .tel {
+  color: var(--color-black);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--color-logo-blue);
+}
+
+.tel:hover,
+.tel:focus {
+  color: var(--color-logo-blue);
+}
+
+/*Шапка*/
+
+.main__page, .footer {
+  background-color: var(--color-background-main-footer);
+  color: var(--color-white);
+}
+
+/*Hero - page*/
+.main__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+/* or 136% */
+max-width: 696px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+}
+
+.button-hero {
+  font-family: inherit;
+  color: var(--color-white);
+  background-color: var(--color-logo-blue);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em; 
+
+}
+
+
+/*Переваги*/
+
+.advantage-title > title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.71;
+}
+
+
+
+/*Чим ми займаємося*/
+.busy-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+   
+}
+
+
+/*Наша команда*/
+.team {
+  background-color: var(--color-backgraund-team);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+/* identical to box height */
+
+
+}
+.title-team {
+  font-weight: 500;
+}
+
+.our-team__itams {
+  background-color: var(--color-backgraund-section);
+}
+
+
+/*Підвал*/
+
+.logo > .logo__white {
+  color: var(--color-white);
+}
+
+.footer .footer-list {
+  color: var(--color-white);
+}
+
+.footer-a {
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+/* or 171% */
+  letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+/* -------------------Стилі для portfolio.html------------------------------------ */
+
+
+button {
+  font-family: inherit;
+ 
+}
+
+
+.main-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.2;
+/* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
