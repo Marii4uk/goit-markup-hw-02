@@ -30,10 +30,10 @@ body {
   font-size: 14px;
   
  }
-html, body{
+/* html, body{
   height: 100%;
   min-width: 320px;
-}
+} */
 
 a{
 	text-decoration: none;
@@ -132,7 +132,7 @@ text-transform: uppercase;
 
 /*Переваги*/
 
-.advantage-title > title {
+.advantage-title > .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -140,6 +140,14 @@ text-transform: uppercase;
   text-transform: uppercase;
   line-height: 1.71;
 }
+
+.advantage-title > .information__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+}
+
 
 
 
@@ -193,8 +201,14 @@ text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
+.contacts {
+  color: #FFFFFF90;
+}
 
-
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-logo-blue);
+}
 
 
 
@@ -205,7 +219,19 @@ button {
   font-family: inherit;
  
 }
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+/* identical to box height, or 162% */
+  text-align: center;
+}
 
+.button-list:hover,
+.button-list:focus {
+  color: var(--color-white);
+  background-color: #2196F3;
+}
 
 .main-title {
   font-weight: 700;
@@ -215,6 +241,12 @@ button {
   letter-spacing: 0.06em;
 }
 
+.main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+/* identical to box height, or 188% */
+}
 
 
 
